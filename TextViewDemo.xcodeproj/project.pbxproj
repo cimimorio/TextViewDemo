@@ -11,6 +11,8 @@
 		18A427491D70165D00857C3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A427481D70165D00857C3A /* main.m */; };
 		18A4274B1D70165D00857C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A4274A1D70165D00857C3A /* Assets.xcassets */; };
 		18A4274E1D70165D00857C3A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4274C1D70165D00857C3A /* MainMenu.xib */; };
+		18A427581D70166500857C3A /* FileEditWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A427561D70166500857C3A /* FileEditWindowController.m */; };
+		18A427591D70166500857C3A /* FileEditWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A427571D70166500857C3A /* FileEditWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,9 @@
 		18A4274A1D70165D00857C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A4274D1D70165D00857C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		18A4274F1D70165D00857C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A427551D70166500857C3A /* FileEditWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileEditWindowController.h; sourceTree = "<group>"; };
+		18A427561D70166500857C3A /* FileEditWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileEditWindowController.m; sourceTree = "<group>"; };
+		18A427571D70166500857C3A /* FileEditWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileEditWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,9 @@
 		18A427431D70165D00857C3A /* TextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18A427551D70166500857C3A /* FileEditWindowController.h */,
+				18A427561D70166500857C3A /* FileEditWindowController.m */,
+				18A427571D70166500857C3A /* FileEditWindowController.xib */,
 				18A427441D70165D00857C3A /* AppDelegate.h */,
 				18A427451D70165D00857C3A /* AppDelegate.m */,
 				18A4274A1D70165D00857C3A /* Assets.xcassets */,
@@ -130,6 +138,7 @@
 			files = (
 				18A4274B1D70165D00857C3A /* Assets.xcassets in Resources */,
 				18A4274E1D70165D00857C3A /* MainMenu.xib in Resources */,
+				18A427591D70166500857C3A /* FileEditWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A427581D70166500857C3A /* FileEditWindowController.m in Sources */,
 				18A427491D70165D00857C3A /* main.m in Sources */,
 				18A427461D70165D00857C3A /* AppDelegate.m in Sources */,
 			);
